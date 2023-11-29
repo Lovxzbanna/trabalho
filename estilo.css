@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(45deg, #a6206a, #ec1c4b, #f16a43, #f7d969, #2f9395);
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 1px 5px 10px black;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    padding: 15px;
+}
+
+.botao {
+    margin-left: 400px;
+    text-align: center;
+    margin: 50px;
+}
+
+.altura {
+    height: 10px;
+    position: relative;
+    left: 148px;
+}
+.quadril {
+    height: 10px;
+}
+.genero {
+    height: 10px;
+    position: relative;
+    left: 200px;
+}

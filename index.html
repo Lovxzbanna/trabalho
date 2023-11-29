@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IAC </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+        <h1> Calculadora IAC </h1>
+        <form action="calculadora.php" method="POST">
+            <p>
+                Digite a circunferência do seu quadril  (em cm):
+                <input class="quadril" name="txtQuadril" type="text" required>
+            </p>
+            <p>
+                Digite sua altura (em cm):
+                <input class="altura" name="txtAltura" type="text" required>
+            </p>
+            <p>
+                Digite seu gênero:
+                <input class="genero" name="txtGenero" type="text" required>
+            </p>
+            <p class="botao">
+                <a href="calculadora.php"><input type="button" value="Calcular"></a>
+            </p>
+        </form>
+    </div>
+</body>
+</html> 
